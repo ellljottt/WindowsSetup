@@ -1,6 +1,6 @@
 # Path and content of the autorized_keys file
 # ssh-keygen -t ed25519
-$PubKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFFlepUq2KqbT1lD/2HMwWTak3Dbu8xWNf5C6EkBE9rU CloudCommander"
+$PubKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOei4q6eVvdPnTGVcvNJbSJWo2yQKLLpRoMgriFJ8fs4 joshu@Josh"
 $SshKeyFile = "C:\ProgramData\ssh\administrators_authorized_keys"
 $SshConfigFile = "C:\ProgramData\ssh\sshd_config"
 #The following needs to be added to the SSH config file in C:\ProgramData\ssh\sshd_config

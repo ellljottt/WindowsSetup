@@ -1,5 +1,5 @@
 # High level structure file
-$PrivateKeyLocation = "C:\Users\$env:username\.ssh\Server2022"
+$PrivateKeyLocation = "C:\Users\joshu\.ssh\heute"
 
 $DcHostname = "DC01"
 $DhcpServerHostname = "DHCP01"
@@ -44,7 +44,7 @@ Invoke-Command -VMName "DHCP Relay" -FilePath .\Common_Setup.ps1 -ArgumentList "
 
 # Ready to connect!
 # Ab hier für alle KOmmandos PowerShell 7 benutzen
-# Enter-PSSession -HostName "dc01" -UserName "Administrator" -KeyFilePath C:\Users\andre\.ssh\modul1
+# Enter-PSSession -HostName "dc01" -UserName "Administrator" -KeyFilePath "C:\Users\joshu\.ssh\heute"
 
 # 4. Secific configurations
 # 4.1 DC

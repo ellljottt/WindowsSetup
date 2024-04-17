@@ -9,19 +9,19 @@ $ServerVlan = 100
 #$Building1Vlan = 200 # not used, done with for loop and math
 #$Building2Vlan = 300 # not used, done with for loop and math
 # Installation medium
-$PathToWindowsServerIso = "C:\Users\$env:username\HyperV\SERVER_EVAL_x64FRE_de-de.iso"
+$PathToWindowsServerIso = "C:\ISO\SERVER_EVAL_x64FRE_de-de.iso"
 # DC variables
 $DcName = "Domain Controller"
-$DcVhdxPath = "C:\Users\$env:username\HyperV\DC.vhdx"
+$DcVhdxPath = "C:\Users\joshu\HyperV\DC.vhdx"
 # DHCP server variables
 $DhcpName = "DHCP Server"
-$DhcpVhdxPath = "C:\Users\$env:username\HyperV\DHCP_Server.vhdx"
+$DhcpVhdxPath = "C:\Users\joshu\HyperV\DHCP_Server.vhdx"
 # DHCP relay agent variables
 $DhcpRelayName = "DHCP Relay"
-$DhcpRelayVhdxPath = "C:\Users\$env:username\HyperV\DHCP_Relay.vhdx"
+$DhcpRelayVhdxPath = "C:\Users\joshu\HyperV\DHCP_Relay.vhdx"
 # Firewall variables
 $FirewallName = "Firewall"
-$GatewayVhdxPath = "C:\Users\$env:username\HyperV\Gateway.vhdx"
+$GatewayVhdxPath = "C:\Users\joshu\HyperVGateway.vhdx"
 
 # Create the switches in HyperV
 New-VMSwitch -Name $ServerSwitch -SwitchType Internal 
